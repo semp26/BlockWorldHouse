@@ -93,7 +93,13 @@ def b_key_pressed(p_world: World):
     x, y, z = p_world.player_position()
     house1 = House((x, y, z), p_world)
     house1.build()
-    house1.change_wall_material("default:grass")
+    HouseTest(house1)
+
+
+class HouseTest:
+    def __init__(self, house1: House):
+        self.house1 = house1
+        house1.change_wall_material("default:grass")
 
 
 world = World()
