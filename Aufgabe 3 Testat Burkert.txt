@@ -1,0 +1,5 @@
+Auf eine als "public" deklarierte Variable kann aus jedem Ort im Programm zugegriffen werden.
+
+Auf eine als "private" deklarierte Variable kann nur die jeweilige Klasse zugreifen.
+
+Auf eine als "protected" deklarierte Variable kann nur die jeweilige Klasse selbst sowie die eigenen Unterklassen zugreifen.
