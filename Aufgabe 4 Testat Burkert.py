@@ -31,6 +31,7 @@ class WallWithWindow(Wall):
         else:
             self._bw.setBlocks(x + 2, y, z + 3, x + 1, y + self.height - 3, z + self.width - 2, "air")
 
+
 class WallWithDoor(Wall):
     def __int__(self, p_pos: tuple, p_bw: World, rotated: bool):
         super(self).__init__(p_pos, p_bw, rotated)
